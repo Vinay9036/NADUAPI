@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScriptsForM365.SendMailFromOnlineToOnpremAccount">
+      <class name="TestScriptsForM365.Demo">
         <methods>
-          <include name="sendEmail"/>
-          <include name="configAM"/>
-          <include name="configBM"/>
-          <include name="configBT"/>
-          <include name="configAC"/>
-          <include name="configBS"/>
-          <include name="configBC"/>
-          <include name="config"/>
-          <include name="configAT"/>
+          <include name="sendmail"/>
         </methods>
-      </class> <!-- TestScriptsForM365.SendMailFromOnlineToOnpremAccount -->
+      </class> <!-- TestScriptsForM365.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
